@@ -372,9 +372,7 @@ fi
 function Bendi_githuburl() {
 Github="$(grep 'GITHUB_LINK=' "/etc/openwrt_replace" | cut -d "=" -f2)"
 ECHOB "提示：您现在检测云端的地址为：
-
  ${Github}
-
  是否更换地址检测?
  
  此地址不局限于自己的仓库,同样用同一个上游编译脚本的,对方有编译同样架构的固件,
