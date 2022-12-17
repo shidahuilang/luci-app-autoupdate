@@ -35,7 +35,7 @@ jobs:
       if: env.REPO_TOKEN && (github.event.inputs.again-fork == 'fork')
       run: |
         cd $GITHUB_WORKSPACE
-        git clone -b makebl https://github.com/makebl/luci-app-autoupdate shangyou
+        git clone -b makebl https://github.com/shidahuilang/luci-app-autoupdate shangyou
         
     - name: 同步上游仓库
       if: env.REPO_TOKEN && (github.event.inputs.again-fork == 'fork')
