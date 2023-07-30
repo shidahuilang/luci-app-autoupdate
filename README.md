@@ -1,2 +1,1 @@
-# luci-app-autoupdate
-openwrt自动升级
+luci-app-autoupdate
